@@ -144,4 +144,3 @@ function dm_is_constant($token) {
 function dm_strip($value) {
     return preg_replace('!^([\'"])(.*)\1$!', '$2', $value);
 }
-?>
